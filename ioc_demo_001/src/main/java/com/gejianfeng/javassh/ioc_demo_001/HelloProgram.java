@@ -1,20 +1,20 @@
 /**
  * 
  */
-package com.gejianfeng.javassh.ioc;
+package com.gejianfeng.javassh.ioc_demo_001;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.gejianfeng.javassh.ioc.helloworld.HelloWorld;
-import com.gejianfeng.javassh.ioc.helloworld.HelloWorldService;
+import com.gejianfeng.javassh.ioc_demo_001.helloworld.HelloWorld;
+import com.gejianfeng.javassh.ioc_demo_001.helloworld.HelloWorldService;
 
 /**
- * @author Ge Jian Feng
+ * @author gejianfeng
  *
  */
 public class HelloProgram {
-
+	
 	/**
 	 * @param args
 	 */

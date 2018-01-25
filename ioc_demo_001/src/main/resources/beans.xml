@@ -3,9 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 						http://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="springHelloWorld"	class="com.gejianfeng.javassh.ioc.helloworld.impl.SpringHelloWorld"></bean>
-	<bean id="structsHelloWorld" class="com.gejianfeng.javassh.ioc.helloworld.impl.StructsHelloWorld"></bean>
-	<bean id="helloWorldService" class="com.gejianfeng.javassh.ioc.helloworld.HelloWorldService">
+	<bean id="springHelloWorld"	class="com.gejianfeng.javassh.ioc_demo_001.helloworld.impl.SpringHelloWorld"></bean>
+	<bean id="structsHelloWorld" class="com.gejianfeng.javassh.ioc_demo_001.helloworld.impl.StructsHelloWorld"></bean>
+	<bean id="helloWorldService" class="com.gejianfeng.javassh.ioc_demo_001.helloworld.HelloWorldService">
 		<property name="hwHandler" ref="springHelloWorld"/>
 	</bean>						
 </beans>

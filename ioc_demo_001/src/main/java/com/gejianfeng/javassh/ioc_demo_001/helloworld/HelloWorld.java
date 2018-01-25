@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.gejianfeng.javassh.ioc.helloworld;
+package com.gejianfeng.javassh.ioc_demo_001.helloworld;
 
 /**
- * @author Ge Jian Feng
+ * @author gejianfeng
  *
  */
 public interface HelloWorld {
-	
+
 	public void sayHello();
 }

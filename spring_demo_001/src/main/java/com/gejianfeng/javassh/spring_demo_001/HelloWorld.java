@@ -1,8 +1,15 @@
-package com.gejianfeng.javassh.spring.core;
+/**
+ * 
+ */
+package com.gejianfeng.javassh.spring_demo_001;
 
+/**
+ * @author gejianfeng
+ *
+ */
 public class HelloWorld {
-	
-	private String name;
+
+	public String name;
 
 	/**
 	 * @param name the name to set

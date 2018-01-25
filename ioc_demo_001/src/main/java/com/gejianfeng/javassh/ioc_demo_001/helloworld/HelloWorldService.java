@@ -1,12 +1,15 @@
-package com.gejianfeng.javassh.ioc.helloworld;
+/**
+ * 
+ */
+package com.gejianfeng.javassh.ioc_demo_001.helloworld;
 
+/**
+ * @author gejianfeng
+ *
+ */
 public class HelloWorldService {
 
-	private HelloWorld hwHandler = null;
-	
-	public HelloWorldService() {
-		
-	}
+	HelloWorld hwHandler = null;
 
 	/**
 	 * @return the hwHandler
@@ -21,4 +24,6 @@ public class HelloWorldService {
 	public void setHwHandler(HelloWorld hwHandler) {
 		this.hwHandler = hwHandler;
 	}
+	
+	
 }
