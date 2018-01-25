@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="springHelloWorld" class="com.gejianfeng.tutorial.springdemo001.helloworld.impl.SpringHelloWorld"></bean>
+	<bean id="structsHelloWorld" class="com.gejianfeng.tutorial.springdemo001.helloworld.impl.StructsHelloWorld"></bean>
+	<bean id="helloWorldService" class="com.gejianfeng.tutorial.springdemo001.helloworld.HelloWorldService">
+		<property name="hwHandler" ref="springHelloWorld"/>
+	</bean>
+</beans>
